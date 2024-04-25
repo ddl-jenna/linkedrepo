@@ -1,0 +1,268 @@
+2022-09-28T15:50:50.121Z: Started at Wed 28 Sep 2022 08:50:50 AM PDT
+2022-09-28T15:50:50.121Z: Creating directory /domino/executor/logs
+2022-09-28T15:50:50.129Z: Creating directory /domino/executor/runStates
+2022-09-28T15:50:50.137Z: Creating directory /domino/executor/runs
+2022-09-28T15:50:50.146Z: Creating directory /domino/executor/tmp
+2022-09-28T15:50:50.154Z: Ensuring directory /mnt/execution-vol/mnt exists and is owned by system account
+2022-09-28T15:50:50.167Z: Ensuring directory /mnt/execution-vol/tmp exists and is owned by system account
+2022-09-28T15:50:50.175Z: Cleaning up /mnt/execution-vol/tmp
+2022-09-28T15:50:50.179Z: Setting ownership for files in /mnt/execution-vol
+2022-09-28T15:50:50.264Z: Files in /mnt/execution-vol:
+2022-09-28T15:50:50.270Z: /mnt/execution-vol/lost+found:
+2022-09-28T15:50:50.271Z: total 20K
+2022-09-28T15:50:50.271Z: drwx------. 2 domino domino  16K Sep 28 07:40 .
+2022-09-28T15:50:50.271Z: drwxr-xr-x. 5 domino domino 4.0K Sep 28 07:40 ..
+2022-09-28T15:50:50.271Z: 
+2022-09-28T15:50:50.271Z: /mnt/execution-vol/mnt:
+2022-09-28T15:50:50.271Z: total 496K
+2022-09-28T15:50:50.271Z: drwxr-xr-x. 25 domino domino 4.0K Sep 28 08:21 .
+2022-09-28T15:50:50.271Z: drwxr-xr-x.  5 domino domino 4.0K Sep 28 07:40 ..
+2022-09-28T15:50:50.271Z: -rw-r--r--.  1 domino domino  751 Sep 26 04:39 app_julia.py
+2022-09-28T15:50:50.271Z: -rw-r--r--.  1 domino domino 3.1K Sep 28 08:19 app.py
+2022-09-28T15:50:50.271Z: -rw-r--r--.  1 domino domino   13 Sep 21 12:18 app.sh
+2022-09-28T15:50:50.271Z: drwxr-xr-x.  6 domino domino 4.0K Sep 28 07:41 code
+2022-09-28T15:50:50.271Z: -rw-r--r--.  1 domino domino  17K Sep 21 04:33 dash_hello_world.ipynb
+2022-09-28T15:50:50.271Z: drwxr-xr-x.  4 domino domino 4.0K Sep 28 08:21 .domino
+2022-09-28T15:50:50.271Z: -rw-r--r--.  1 domino domino  548 Apr 30  2021 .dominoignore
+2022-09-28T15:50:50.271Z: -rw-r--r--.  1 domino domino  313 Apr 30  2021 .dominoresults
+2022-09-28T15:50:50.271Z: drwxr-xr-x.  2 domino domino 4.0K Sep 28 07:41 .ipynb_checkpoints
+2022-09-28T15:50:50.271Z: -rw-r--r--.  1 domino domino 8.0K May  9 11:15 Matt-tf-idf-code.ipynb
+2022-09-28T15:50:50.271Z: drwxr-xr-x.  3 domino domino  12K Sep 28 07:41 Other_Specs
+2022-09-28T15:50:50.271Z: -rw-r--r--.  1 domino domino  40K May  3 14:28 pyPDF3_example.png
+2022-09-28T15:50:50.271Z: drwxr-xr-x.  3 domino domino 4.0K Sep 28 08:21 results
+2022-09-28T15:50:50.271Z: drwxr-xr-x.  2 domino domino 4.0K Sep 28 07:41 SES500020_VS_MS14period02_AND_D210-11000-1_AND_D210-13657-1
+2022-09-28T15:50:50.271Z: drwxr-xr-x.  4 domino domino 4.0K Sep 28 07:41 SES50654_VS_MS14period02_AND_D210-11000-1_AND_D210-13657-1
+2022-09-28T15:50:50.271Z: -rw-r--r--.  1 domino domino  48K Jun  7 08:22 SS4071_R01 NYLON, PROTECTION AGAINST ULTRA-VIOLET LIGHT Searchable.pdf
+2022-09-28T15:50:50.271Z: drwxr-xr-x.  3 domino domino 4.0K Sep 28 07:41 SS7007_VS_BAC5117
+2022-09-28T15:50:50.271Z: -rw-r--r--.  1 domino domino  38K May  9 10:50 SS8015-D210-12023-1-Mapping.xlsx
+2022-09-28T15:50:50.271Z: drwxr-xr-x.  3 domino domino 4.0K Sep 28 07:41 SS8015_VS_D210-13657-1
+2022-09-28T15:50:50.271Z: drwxr-xr-x.  3 domino domino 4.0K Sep 28 07:41 SS8410_VS_BAC5722
+2022-09-28T15:50:50.271Z: drwxr-xr-x.  3 domino domino 4.0K Sep 28 07:41 SS8445_VS_BAC5613_AND_BMS7-269
+2022-09-28T15:50:50.271Z: drwxr-xr-x.  2 domino domino 4.0K Sep 28 07:41 SS8452_VS_BAC5613_AND_BMS7-269
+2022-09-28T15:50:50.271Z: drwxr-xr-x.  2 domino domino 4.0K Sep 28 07:41 SS8487_VS_BAC5715
+2022-09-28T15:50:50.271Z: drwxr-xr-x.  2 domino domino 4.0K Sep 28 07:41 SS8535_VS_D210-10102-1
+2022-09-28T15:50:50.271Z: drwxr-xr-x.  3 domino domino 4.0K Sep 28 07:41 SS8705_VS_BAC5436
+2022-09-28T15:50:50.271Z: drwxr-xr-x.  3 domino domino 4.0K Sep 28 07:41 SS8768_VS_BAC5730
+2022-09-28T15:50:50.271Z: drwxr-xr-x.  3 domino domino 4.0K Sep 28 07:41 SS8798_VS_BAC5307
+2022-09-28T15:50:50.271Z: drwxr-xr-x.  3 domino domino 4.0K Sep 28 07:41 SS8805_VS_BAC5424_AND_BSS7040
+2022-09-28T15:50:50.271Z: drwxr-xr-x.  3 domino domino 4.0K Sep 28 07:41 SS8806_VS_BAC5423_AND_BSS7039
+2022-09-28T15:50:50.271Z: drwxr-xr-x.  2 domino domino 4.0K Sep 28 07:41 SS8866_VS_BAC5811
+2022-09-28T15:50:50.271Z: drwxr-xr-x.  2 domino domino 4.0K Sep 28 07:41 SS9208_VS_BAC5300
+2022-09-28T15:50:50.271Z: drwxr-xr-x.  3 domino domino 4.0K Sep 28 07:41 SS9300_VS_BAC5009
+2022-09-28T15:50:50.271Z: drwxr-xr-x.  3 domino domino 4.0K Sep 28 07:41 SS9705_VS_BMS7-249
+2022-09-28T15:50:50.271Z: -rw-r--r--.  1 domino domino  51K Jun 20 14:00 Testing.pdf
+2022-09-28T15:50:50.271Z: -rw-r--r--.  1 domino domino  87K Jun 20 06:42 test.pdf
+2022-09-28T15:50:50.271Z: -rw-r--r--.  1 domino domino  72K May  3 14:29 textract_example.png
+2022-09-28T15:50:50.271Z: 
+2022-09-28T15:50:50.271Z: /mnt/execution-vol/tmp:
+2022-09-28T15:50:50.271Z: total 8.0K
+2022-09-28T15:50:50.271Z: drwxrwxrwx. 2 domino domino 4.0K Sep 28 07:40 .
+2022-09-28T15:50:50.271Z: drwxr-xr-x. 5 domino domino 4.0K Sep 28 07:40 ..
+2022-09-28T15:50:50.276Z: usermod: no changes
+2022-09-28T15:50:50.427Z: Linking files from /opt/domino-executor into /domino/executor
+2022-09-28T15:50:50.496Z: Linking to /opt/domino-executor/bin from /domino/executor/bin
+2022-09-28T15:50:50.559Z: Linking to /opt/domino-executor/conf from /domino/executor/conf
+2022-09-28T15:50:50.578Z: Running in /domino/executor
+2022-09-28T15:50:50.635Z: Running as uid=12574(domino) gid=12574(domino) groups=12574(domino)
+2022-09-28T15:50:52.692Z: 08:50:51,653 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+2022-09-28T15:50:52.693Z: 08:50:51,654 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.xml]
+2022-09-28T15:50:52.693Z: 08:50:51,661 |-INFO in ch.qos.logback.classic.BasicConfigurator@304a3655 - Setting up default configuration.
+2022-09-28T15:50:52.693Z: 08:50:52,661 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+2022-09-28T15:50:52.693Z: 08:50:52,669 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Will scan for changes in [file:/opt/domino-executor/conf/logback/logback.xml] 
+2022-09-28T15:50:52.693Z: 08:50:52,669 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Setting ReconfigureOnChangeTask scanning period to 30 seconds
+2022-09-28T15:50:52.693Z: 08:50:52,670 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+2022-09-28T15:50:52.693Z: 08:50:52,670 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+2022-09-28T15:50:52.693Z: 08:50:52,675 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+2022-09-28T15:50:52.693Z: 08:50:52,689 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [telemetry] to INFO
+2022-09-28T15:50:52.693Z: 08:50:52,689 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@368d5c00 - Propagating INFO level on Logger[telemetry] onto the JUL framework
+2022-09-28T15:50:52.693Z: 08:50:52,690 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [play] to INFO
+2022-09-28T15:50:52.693Z: 08:50:52,690 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@368d5c00 - Propagating INFO level on Logger[play] onto the JUL framework
+2022-09-28T15:50:52.693Z: 08:50:52,690 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [akka] to INFO
+2022-09-28T15:50:52.693Z: 08:50:52,690 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@368d5c00 - Propagating INFO level on Logger[akka] onto the JUL framework
+2022-09-28T15:50:52.693Z: 08:50:52,690 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.quartz] to INFO
+2022-09-28T15:50:52.693Z: 08:50:52,690 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@368d5c00 - Propagating INFO level on Logger[org.quartz] onto the JUL framework
+2022-09-28T15:50:52.693Z: 08:50:52,690 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [application] to INFO
+2022-09-28T15:50:52.693Z: 08:50:52,690 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@368d5c00 - Propagating INFO level on Logger[application] onto the JUL framework
+2022-09-28T15:50:52.693Z: 08:50:52,690 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [domino] to INFO
+2022-09-28T15:50:52.693Z: 08:50:52,690 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@368d5c00 - Propagating INFO level on Logger[domino] onto the JUL framework
+2022-09-28T15:50:52.693Z: 08:50:52,690 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [domino.authn] to INFO
+2022-09-28T15:50:52.693Z: 08:50:52,690 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@368d5c00 - Propagating INFO level on Logger[domino.authn] onto the JUL framework
+2022-09-28T15:50:52.693Z: 08:50:52,691 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.jets3t] to INFO
+2022-09-28T15:50:52.693Z: 08:50:52,691 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@368d5c00 - Propagating INFO level on Logger[org.jets3t] onto the JUL framework
+2022-09-28T15:50:52.693Z: 08:50:52,691 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [okhttp3] to INFO
+2022-09-28T15:50:52.693Z: 08:50:52,691 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@368d5c00 - Propagating INFO level on Logger[okhttp3] onto the JUL framework
+2022-09-28T15:50:52.693Z: 08:50:52,691 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to ERROR
+2022-09-28T15:50:52.693Z: 08:50:52,691 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@368d5c00 - Propagating ERROR level on Logger[ROOT] onto the JUL framework
+2022-09-28T15:50:52.693Z: 08:50:52,691 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+2022-09-28T15:50:52.693Z: 08:50:52,691 |-ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [FILE]. Did you define it below instead of above in the configuration file?
+2022-09-28T15:50:52.693Z: 08:50:52,691 |-ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+2022-09-28T15:50:52.693Z: 08:50:52,691 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+2022-09-28T15:50:52.693Z: 08:50:52,691 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@12a160c2 - Registering current configuration as safe fallback point
+2022-09-28T15:50:52.693Z: 
+2022-09-28T15:50:52.770Z: INFO  [d.e.i.i.ExecutorApplicationLoader] Starting application. correlationId="oA992ASfel" thread="main"
+2022-09-28T15:50:52.772Z: INFO  [d.e.i.i.ExecutorApplicationLoader] Using central configuration correlationId="oA992ASfel" thread="main"
+2022-09-28T15:50:52.773Z: INFO  [d.e.i.i.ExecutorConfigurationProvider] Loading configuration from /var/lib/domino/secrets/executor-configuration.json correlationId="oA992ASfel" thread="main"
+2022-09-28T15:50:53.065Z: 08:50:51,653 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+2022-09-28T15:50:53.065Z: 08:50:51,654 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.xml]
+2022-09-28T15:50:53.065Z: 08:50:51,661 |-INFO in ch.qos.logback.classic.BasicConfigurator@304a3655 - Setting up default configuration.
+2022-09-28T15:50:53.065Z: 08:50:52,661 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+2022-09-28T15:50:53.065Z: 08:50:52,669 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Will scan for changes in [file:/opt/domino-executor/conf/logback/logback.xml] 
+2022-09-28T15:50:53.065Z: 08:50:52,669 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Setting ReconfigureOnChangeTask scanning period to 30 seconds
+2022-09-28T15:50:53.065Z: 08:50:52,670 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+2022-09-28T15:50:53.065Z: 08:50:52,670 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+2022-09-28T15:50:53.065Z: 08:50:52,675 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+2022-09-28T15:50:53.065Z: 08:50:52,689 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [telemetry] to INFO
+2022-09-28T15:50:53.065Z: 08:50:52,689 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@368d5c00 - Propagating INFO level on Logger[telemetry] onto the JUL framework
+2022-09-28T15:50:53.065Z: 08:50:52,690 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [play] to INFO
+2022-09-28T15:50:53.065Z: 08:50:52,690 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@368d5c00 - Propagating INFO level on Logger[play] onto the JUL framework
+2022-09-28T15:50:53.065Z: 08:50:52,690 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [akka] to INFO
+2022-09-28T15:50:53.065Z: 08:50:52,690 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@368d5c00 - Propagating INFO level on Logger[akka] onto the JUL framework
+2022-09-28T15:50:53.065Z: 08:50:52,690 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.quartz] to INFO
+2022-09-28T15:50:53.065Z: 08:50:52,690 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@368d5c00 - Propagating INFO level on Logger[org.quartz] onto the JUL framework
+2022-09-28T15:50:53.065Z: 08:50:52,690 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [application] to INFO
+2022-09-28T15:50:53.065Z: 08:50:52,690 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@368d5c00 - Propagating INFO level on Logger[application] onto the JUL framework
+2022-09-28T15:50:53.065Z: 08:50:52,690 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [domino] to INFO
+2022-09-28T15:50:53.065Z: 08:50:52,690 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@368d5c00 - Propagating INFO level on Logger[domino] onto the JUL framework
+2022-09-28T15:50:53.065Z: 08:50:52,690 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [domino.authn] to INFO
+2022-09-28T15:50:53.065Z: 08:50:52,690 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@368d5c00 - Propagating INFO level on Logger[domino.authn] onto the JUL framework
+2022-09-28T15:50:53.065Z: 08:50:52,691 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.jets3t] to INFO
+2022-09-28T15:50:53.065Z: 08:50:52,691 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@368d5c00 - Propagating INFO level on Logger[org.jets3t] onto the JUL framework
+2022-09-28T15:50:53.065Z: 08:50:52,691 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [okhttp3] to INFO
+2022-09-28T15:50:53.065Z: 08:50:52,691 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@368d5c00 - Propagating INFO level on Logger[okhttp3] onto the JUL framework
+2022-09-28T15:50:53.065Z: 08:50:52,691 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to ERROR
+2022-09-28T15:50:53.065Z: 08:50:52,691 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@368d5c00 - Propagating ERROR level on Logger[ROOT] onto the JUL framework
+2022-09-28T15:50:53.065Z: 08:50:52,691 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+2022-09-28T15:50:53.065Z: 08:50:52,691 |-ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [FILE]. Did you define it below instead of above in the configuration file?
+2022-09-28T15:50:53.065Z: 08:50:52,691 |-ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+2022-09-28T15:50:53.065Z: 08:50:52,691 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+2022-09-28T15:50:53.065Z: 08:50:52,691 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@12a160c2 - Registering current configuration as safe fallback point
+2022-09-28T15:50:53.065Z: 08:50:53,062 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+2022-09-28T15:50:53.065Z: 08:50:53,062 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Will scan for changes in [file:/opt/domino-executor/conf/logback/logback.xml] 
+2022-09-28T15:50:53.065Z: 08:50:53,062 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Setting ReconfigureOnChangeTask scanning period to 30 seconds
+2022-09-28T15:50:53.065Z: 08:50:53,063 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+2022-09-28T15:50:53.065Z: 08:50:53,063 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+2022-09-28T15:50:53.065Z: 08:50:53,063 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+2022-09-28T15:50:53.065Z: 08:50:53,064 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [telemetry] to INFO
+2022-09-28T15:50:53.065Z: 08:50:53,064 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@588307f7 - Propagating INFO level on Logger[telemetry] onto the JUL framework
+2022-09-28T15:50:53.065Z: 08:50:53,064 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [play] to INFO
+2022-09-28T15:50:53.065Z: 08:50:53,064 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@588307f7 - Propagating INFO level on Logger[play] onto the JUL framework
+2022-09-28T15:50:53.065Z: 08:50:53,064 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [akka] to INFO
+2022-09-28T15:50:53.065Z: 08:50:53,064 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@588307f7 - Propagating INFO level on Logger[akka] onto the JUL framework
+2022-09-28T15:50:53.065Z: 08:50:53,064 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.quartz] to INFO
+2022-09-28T15:50:53.065Z: 08:50:53,064 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@588307f7 - Propagating INFO level on Logger[org.quartz] onto the JUL framework
+2022-09-28T15:50:53.065Z: 08:50:53,064 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [application] to INFO
+2022-09-28T15:50:53.065Z: 08:50:53,064 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@588307f7 - Propagating INFO level on Logger[application] onto the JUL framework
+2022-09-28T15:50:53.065Z: 08:50:53,064 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [domino] to INFO
+2022-09-28T15:50:53.065Z: 08:50:53,064 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@588307f7 - Propagating INFO level on Logger[domino] onto the JUL framework
+2022-09-28T15:50:53.065Z: 08:50:53,064 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [domino.authn] to INFO
+2022-09-28T15:50:53.065Z: 08:50:53,064 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@588307f7 - Propagating INFO level on Logger[domino.authn] onto the JUL framework
+2022-09-28T15:50:53.065Z: 08:50:53,064 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.jets3t] to INFO
+2022-09-28T15:50:53.065Z: 08:50:53,064 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@588307f7 - Propagating INFO level on Logger[org.jets3t] onto the JUL framework
+2022-09-28T15:50:53.065Z: 08:50:53,064 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [okhttp3] to INFO
+2022-09-28T15:50:53.065Z: 08:50:53,064 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@588307f7 - Propagating INFO level on Logger[okhttp3] onto the JUL framework
+2022-09-28T15:50:53.065Z: 08:50:53,064 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to ERROR
+2022-09-28T15:50:53.065Z: 08:50:53,064 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@588307f7 - Propagating ERROR level on Logger[ROOT] onto the JUL framework
+2022-09-28T15:50:53.065Z: 08:50:53,064 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+2022-09-28T15:50:53.065Z: 08:50:53,064 |-ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [FILE]. Did you define it below instead of above in the configuration file?
+2022-09-28T15:50:53.065Z: 08:50:53,064 |-ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+2022-09-28T15:50:53.065Z: 08:50:53,064 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+2022-09-28T15:50:53.065Z: 08:50:53,064 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@7df76d99 - Registering current configuration as safe fallback point
+2022-09-28T15:50:53.065Z: 
+2022-09-28T15:50:53.066Z: WARN  [application] Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead. thread="main"
+2022-09-28T15:50:53.593Z: WARNING: An illegal reflective access operation has occurred
+2022-09-28T15:50:53.593Z: WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/app/maven/com/google/inject/guice/4.2.3/guice-4.2.3.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+2022-09-28T15:50:53.593Z: WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+2022-09-28T15:50:53.593Z: WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+2022-09-28T15:50:53.593Z: WARNING: All illegal access operations will be denied in a future release
+2022-09-28T15:50:53.742Z: INFO  [d.e.i.i.ExecutorInjectionModule] Configuring dependency injection thread="main"
+2022-09-28T15:50:55.069Z: INFO  [a.e.s.Slf4jLogger] Slf4jLogger started thread="application-akka.actor.default-dispatcher-4"
+2022-09-28T15:50:56.512Z: INFO  [d.t.i.i.DropwizardStatsDReporter] StatsD Reporter config values addJvmMetrics="false" correlationId="jTlsuRaWwX" linkPrometheusRegistry="false" podPrefix="run-63346d2a924e0e1c906698b3" reporterEnabled="true" statsDHostName="statsd-exporter.dominoprod-platform" statsDPort="8125" thread="main"
+2022-09-28T15:50:56.543Z: INFO  [d.t.i.i.DropwizardStatsDReporter] Starting statsd reporter at statsd-exporter.dominoprod-platform:8125 correlationId="jTlsuRaWwX" thread="main"
+2022-09-28T15:50:56.544Z: INFO  [d.t.i.i.DropwizardStatsDReporter] Started statsd reporter at statsd-exporter.dominoprod-platform:8125 correlationId="jTlsuRaWwX" thread="main"
+2022-09-28T15:50:56.851Z: INFO  [d.s.l.c.Settings] Trying to read config key as blobs.s3.region thread="main"
+2022-09-28T15:50:56.851Z: INFO  [d.s.l.c.Settings] read config key as blobs.s3.region thread="main"
+2022-09-28T15:50:56.852Z: INFO  [d.s.l.c.Settings] Trying to read config key as blobs.s3.bucket thread="main"
+2022-09-28T15:50:56.852Z: INFO  [d.s.l.c.Settings] read config key as blobs.s3.bucket thread="main"
+2022-09-28T15:50:56.852Z: INFO  [d.s.l.c.Settings] Trying to read config key as blobs.s3.path thread="main"
+2022-09-28T15:50:56.852Z: INFO  [d.s.l.c.Settings] read config key as s3storageDefaults.path thread="main"
+2022-09-28T15:50:56.853Z: INFO  [d.s.l.c.Settings] Trying to read config key as blobs.s3.endpointUrl thread="main"
+2022-09-28T15:50:56.853Z: INFO  [d.s.l.c.Settings] read config key as s3storageDefaults.endpointUrl thread="main"
+2022-09-28T15:50:56.853Z: INFO  [d.s.l.c.Settings] Trying to read config key as blobs.s3.bucketInPath thread="main"
+2022-09-28T15:50:56.853Z: INFO  [d.s.l.c.Settings] read config key as s3storageDefaults.bucketInPath thread="main"
+2022-09-28T15:50:56.854Z: INFO  [d.s.l.c.Settings] Trying to read config key as blobs.s3.sseKmsKeyId thread="main"
+2022-09-28T15:50:56.854Z: INFO  [d.s.l.c.Settings] read config key as s3storageDefaults.sseKmsKeyId thread="main"
+2022-09-28T15:50:56.854Z: INFO  [d.s.l.c.Settings] Trying to read config key as blobs.s3.maxConnections thread="main"
+2022-09-28T15:50:56.854Z: INFO  [d.s.l.c.Settings] read config key as s3storageDefaults.maxConnections thread="main"
+2022-09-28T15:50:56.854Z: INFO  [d.s.l.c.Settings] Trying to read config key as blobs.s3.connectionTimeoutDuration thread="main"
+2022-09-28T15:50:56.855Z: INFO  [d.s.l.c.Settings] read config key as s3storageDefaults.connectionTimeoutDuration thread="main"
+2022-09-28T15:50:56.855Z: INFO  [d.s.l.c.Settings] Trying to read config key as blobs.s3.socketTimeoutDuration thread="main"
+2022-09-28T15:50:56.855Z: INFO  [d.s.l.c.Settings] read config key as s3storageDefaults.socketTimeoutDuration thread="main"
+2022-09-28T15:50:56.856Z: INFO  [d.s.l.c.Settings] Trying to read config key as blobs.s3.connectionManagerTimeoutDuration thread="main"
+2022-09-28T15:50:56.856Z: INFO  [d.s.l.c.Settings] read config key as s3storageDefaults.connectionManagerTimeoutDuration thread="main"
+2022-09-28T15:50:56.856Z: INFO  [d.s.l.c.Settings] Trying to read config key as blobs.s3.signedUrlTimeoutDuration thread="main"
+2022-09-28T15:50:56.856Z: INFO  [d.s.l.c.Settings] read config key as s3storageDefaults.signedUrlTimeoutDuration thread="main"
+2022-09-28T15:50:58.494Z: INFO  [d.s.l.c.Settings] Trying to read config key as blobs.s3.region thread="main"
+2022-09-28T15:50:58.494Z: INFO  [d.s.l.c.Settings] read config key as blobs.s3.region thread="main"
+2022-09-28T15:50:58.494Z: INFO  [d.s.l.c.Settings] Trying to read config key as blobs.s3.bucket thread="main"
+2022-09-28T15:50:58.495Z: INFO  [d.s.l.c.Settings] read config key as blobs.s3.bucket thread="main"
+2022-09-28T15:50:58.495Z: INFO  [d.s.l.c.Settings] Trying to read config key as blobs.s3.path thread="main"
+2022-09-28T15:50:58.495Z: INFO  [d.s.l.c.Settings] read config key as s3storageDefaults.path thread="main"
+2022-09-28T15:50:58.495Z: INFO  [d.s.l.c.Settings] Trying to read config key as blobs.s3.endpointUrl thread="main"
+2022-09-28T15:50:58.495Z: INFO  [d.s.l.c.Settings] read config key as s3storageDefaults.endpointUrl thread="main"
+2022-09-28T15:50:58.495Z: INFO  [d.s.l.c.Settings] Trying to read config key as blobs.s3.bucketInPath thread="main"
+2022-09-28T15:50:58.495Z: INFO  [d.s.l.c.Settings] read config key as s3storageDefaults.bucketInPath thread="main"
+2022-09-28T15:50:58.495Z: INFO  [d.s.l.c.Settings] Trying to read config key as blobs.s3.sseKmsKeyId thread="main"
+2022-09-28T15:50:58.496Z: INFO  [d.s.l.c.Settings] read config key as s3storageDefaults.sseKmsKeyId thread="main"
+2022-09-28T15:50:58.496Z: INFO  [d.s.l.c.Settings] Trying to read config key as blobs.s3.maxConnections thread="main"
+2022-09-28T15:50:58.496Z: INFO  [d.s.l.c.Settings] read config key as s3storageDefaults.maxConnections thread="main"
+2022-09-28T15:50:58.496Z: INFO  [d.s.l.c.Settings] Trying to read config key as blobs.s3.connectionTimeoutDuration thread="main"
+2022-09-28T15:50:58.496Z: INFO  [d.s.l.c.Settings] read config key as s3storageDefaults.connectionTimeoutDuration thread="main"
+2022-09-28T15:50:58.496Z: INFO  [d.s.l.c.Settings] Trying to read config key as blobs.s3.socketTimeoutDuration thread="main"
+2022-09-28T15:50:58.497Z: INFO  [d.s.l.c.Settings] read config key as s3storageDefaults.socketTimeoutDuration thread="main"
+2022-09-28T15:50:58.497Z: INFO  [d.s.l.c.Settings] Trying to read config key as blobs.s3.connectionManagerTimeoutDuration thread="main"
+2022-09-28T15:50:58.497Z: INFO  [d.s.l.c.Settings] read config key as s3storageDefaults.connectionManagerTimeoutDuration thread="main"
+2022-09-28T15:50:58.497Z: INFO  [d.s.l.c.Settings] Trying to read config key as blobs.s3.signedUrlTimeoutDuration thread="main"
+2022-09-28T15:50:58.497Z: INFO  [d.s.l.c.Settings] read config key as s3storageDefaults.signedUrlTimeoutDuration thread="main"
+2022-09-28T15:50:58.498Z: INFO  [d.s.b.i.BlobStoreInjectionModule] Blob storage on S3 (bucket dominoprod-projects) correlationId="PCMCrNYi48" thread="main"
+2022-09-28T15:50:58.844Z: INFO  [d.e.i.i.ExecutorMessagingModule] rmq hosts: ArrayBuffer(RabbitHostConfig(rabbitmq-ha-39-1.rabbitmq-ha-discovery.dominoprod-platform,5672)) username: rabbitmq vhost: / thread="main"
+2022-09-28T15:50:58.941Z: INFO  [a.e.s.Slf4jLogger] Slf4jLogger started thread="rabbit-config-1-akka.actor.default-dispatcher-4"
+2022-09-28T15:50:59.140Z: INFO  [d.e.i.i.ExecutorMessagingModule] using DefaultWorkloadClient thread="main"
+2022-09-28T15:50:59.339Z: INFO  [d.m.b.r.a.ConnectionActor] Conn-1 is connected thread="rabbit-config-1-akka.actor.default-dispatcher-9"
+2022-09-28T15:50:59.344Z: INFO  [d.m.b.r.a.ConnectionActor] akka://rabbit-config-1/user/Conn-1 connected to user: rabbitmq on vhost: / at: rabbitmq-ha-39-1.rabbitmq-ha-discovery.dominoprod-platform:5672  thread="rabbit-config-1-akka.actor.default-dispatcher-9"
+2022-09-28T15:50:59.694Z: INFO  [d.e.i.i.ExecutorMessagingModule] using DefaultProvenanceClient thread="main"
+2022-09-28T15:50:59.759Z: INFO  [d.e.r.ExecutionManager] Initializing. correlationId="O6oRKkVRyS" thread="main"
+2022-09-28T15:50:59.760Z: INFO  [d.e.i.i.ExecutorMessagingServerProvider] using ExecutorMessagingServerImpl thread="main"
+2022-09-28T15:50:59.792Z: INFO  [d.s.l.r.RetryInjectionModule] Database operations will be retried with an exponential backoff. maxAttempts=8 initialBackoffDuration='1 second' correlationId="D8dIHOvImh" thread="main"
+2022-09-28T15:50:59.876Z: INFO  [d.e.m.ExecutorMessagingServerImpl] onStateChange: SessionStateChange(Actor[akka://rabbit-config-1/user/IngressConsumer-5.101.1#1549260904],true) thread="rabbit-config-1-akka.actor.default-dispatcher-10"
+2022-09-28T15:50:59.883Z: INFO  [d.e.m.ExecutorMessagingServerImpl] onStateChange: SessionStateChange(Actor[akka://rabbit-config-1/user/ResponseProducer-6.101.1#-1996070920],true) thread="rabbit-config-1-akka.actor.default-dispatcher-4"
+2022-09-28T15:50:59.892Z: WARN  [p.a.l.c.CoordinatedShutdownProvider] Configuration 'play.akka.run-cs-from-phase' was deprecated and has no effect. Play now runs all the CoordinatedShutdown phases. thread="main"
+2022-09-28T15:50:59.962Z: INFO  [d.e.r.RunAutoLauncher] Starting run. thread="main"
+2022-09-28T15:50:59.962Z: INFO  [d.e.r.ExecutionManager] Starting run. thread="main"
+2022-09-28T15:50:59.963Z: INFO  [d.e.r.RunExecutionStarter] Starting run. thread="main"
+2022-09-28T15:50:59.980Z: INFO  [d.s.a.StartableManager] Starting 0 instances. correlationId="Uk2NqqX227" thread="main"
+2022-09-28T15:50:59.990Z: INFO  [d.e.r.RunExecutor] RunExecutor actor started. thread="application-akka.actor.default-dispatcher-5"
+2022-09-28T15:51:00.060Z: INFO  [d.s.a.StartableManager] All instances have been started. correlationId="Uk2NqqX227" thread="main"
+2022-09-28T15:51:00.142Z: INFO  [d.e.r.RunExecutor] handling initial state correlationId="6wOOYE3CbV" projectId="626ff6a0a1d1d5496eec29c8" runId="63346d2a924e0e1c906698b3" thread="application-akka.actor.default-dispatcher-5"
+2022-09-28T15:51:00.142Z: INFO  [d.e.r.RunExecutor] handleStateMessage: WorkloadLifecycleState(63346d2a924e0e1c906698b3,Pending,None) correlationId="6wOOYE3CbV" projectId="626ff6a0a1d1d5496eec29c8" runId="63346d2a924e0e1c906698b3" thread="application-akka.actor.default-dispatcher-5"
+2022-09-28T15:51:00.153Z: INFO  [d.e.r.KubernetesWithVolumesRunExecutionPolicy] Starting preparation. correlationId="6wOOYE3CbV" projectId="626ff6a0a1d1d5496eec29c8" runId="63346d2a924e0e1c906698b3" thread="application-akka.actor.default-dispatcher-5"
+2022-09-28T15:51:00.154Z: INFO  [d.s.r.a.HttpRunUpdater] Preparing run. correlationId="6wOOYE3CbV" projectId="626ff6a0a1d1d5496eec29c8" runId="63346d2a924e0e1c906698b3" thread="application-akka.actor.default-dispatcher-5"
+2022-09-28T15:51:00.155Z: INFO  [d.s.r.a.HttpRunUpdater] Changing run status runId: 63346d2a924e0e1c906698b3 newStatus: Preparing abnormalStatus: None correlationId="6wOOYE3CbV" projectId="626ff6a0a1d1d5496eec29c8" runId="63346d2a924e0e1c906698b3" thread="application-akka.actor.default-dispatcher-5"
+2022-09-28T15:51:00.338Z: INFO  [d.a.p.i.i.Pac4jInjectionModule] Effective Metadata: EffectiveOidcConfiguration(https://domino.us.lmco.com/auth/realms/DominoRealm/protocol/openid-connect/token,http://keycloak-http.dominoprod-platform:80/auth/realms/DominoRealm/protocol/openid-connect/token,https://domino.us.lmco.com/auth/realms/DominoRealm/protocol/openid-connect/auth,https://domino.us.lmco.com/auth/realms/DominoRealm/protocol/openid-connect/logout,https://domino.us.lmco.com/account/auth/oidc/logout,domino-play,803f6fb4-2aca-4b71-bcc9-639e05338905,dominoSession,.https://domino.us.lmco.com,kc_session_state,true) thread="main"
+2022-09-28T15:51:00.568Z: INFO  [p.a.Play] Application started (Prod) (no global state) thread="main"
+2022-09-28T15:51:00.646Z: INFO  [d.e.r.RunExecutor] handleStateMessage: WorkloadLifecycleState(63346d2a924e0e1c906698b3,Preparing,None) correlationId="s0gEbQH8Ed" projectId="626ff6a0a1d1d5496eec29c8" runId="63346d2a924e0e1c906698b3" thread="application-akka.actor.default-dispatcher-5"
+2022-09-28T15:51:00.647Z: INFO  [d.e.r.KubernetesWithVolumesRunExecutionPolicy] Starting process setup. correlationId="s0gEbQH8Ed" projectId="626ff6a0a1d1d5496eec29c8" runId="63346d2a924e0e1c906698b3" thread="application-akka.actor.default-dispatcher-5"
+2022-09-28T15:51:00.675Z: INFO  [d.e.r.KubernetesWithVolumesRunExecutionPolicy] Starting working directory preparation. correlationId="s0gEbQH8Ed" projectId="626ff6a0a1d1d5496eec29c8" retryPreparingRunCount="0" runId="63346d2a924e0e1c906698b3" thread="application-akka.actor.default-dispatcher-5"
+2022-09-28T15:51:00.681Z: INFO  [d.r.d.RunWorkingDirectoryManager] Preparing working directories. correlationId="s0gEbQH8Ed" projectId="626ff6a0a1d1d5496eec29c8" runId="63346d2a924e0e1c906698b3" thread="application-akka.actor.default-dispatcher-5"
+2022-09-28T15:51:00.685Z: INFO  [d.r.d.WorkingDirectoryPreparerWithVolumes] Preparing working directory. commitId="3f333d629220e2396da3169308475fbceaaeae82" correlationId="s0gEbQH8Ed" projectId="626ff6a0a1d1d5496eec29c8" runId="63346d2a924e0e1c906698b3" workingDirectory="/mnt/execution-vol/mnt" thread="application-akka.actor.default-dispatcher-5"
+2022-09-28T15:51:00.744Z: INFO  [d.r.d.WorkingDirectoryPreparerWithVolumes] Project git repo found at /mnt/execution-vol/mnt/.domino/repo. Updating project files in place. correlationId="s0gEbQH8Ed" projectId="626ff6a0a1d1d5496eec29c8" runId="63346d2a924e0e1c906698b3" thread="application-akka.actor.default-dispatcher-5"
+2022-09-28T15:51:01.480Z: INFO  [p.c.s.AkkaHttpServer] Listening for HTTP on /0.0.0.0:9000 thread="main"
+2022-09-28T15:51:08.340Z: INFO  [d.s.s.ExecutorFileSyncClient$$anon$3$$anon$6] Starting blob download transfer actions, count=1 context: [correlationId="s0gEbQH8Ed" projectId="626ff6a0a1d1d5496eec29c8" runId="63346d2a924e0e1c906698b3"] thread="application-akka.actor.default-dispatcher-5"
+2022-09-28T15:51:08.805Z: INFO  [d.s.s.ExecutorFileSyncClient$$anon$3$$anon$6] performTransferActions(..) completed 10 out of 10 thread="pool-8-thread-1"
+2022-09-28T15:51:08.855Z: INFO  [d.r.d.GitWorkingDirectoryResetterImpl] Working directory '/mnt/execution-vol/mnt' updated to commit 3f333d629220e2396da3169308475fbceaaeae82. correlationId="s0gEbQH8Ed" projectId="626ff6a0a1d1d5496eec29c8" runId="63346d2a924e0e1c906698b3" thread="application-akka.actor.default-dispatcher-5"
+2022-09-28T15:51:08.874Z: INFO  [d.k.KubernetesApiClientFactory] Creating official Kubernetes client with in-cluster configuration. correlationId="s0gEbQH8Ed" projectId="626ff6a0a1d1d5496eec29c8" runId="63346d2a924e0e1c906698b3" thread="application-akka.actor.default-dispatcher-5"
+2022-09-28T15:51:09.338Z: INFO  [d.e.r.KubernetesWithVolumesRunExecutionPolicy] Finishing preparation. correlationId="s0gEbQH8Ed" projectId="626ff6a0a1d1d5496eec29c8" runId="63346d2a924e0e1c906698b3" thread="application-akka.actor.default-dispatcher-5"
+2022-09-28T15:51:09.464Z: INFO  [d.r.p.LaunchScriptsWriter] Writing scripts. command="bash '.domino/launch-app-server" correlationId="s0gEbQH8Ed" launchRoot="/domino/executor/launch" projectId="626ff6a0a1d1d5496eec29c8" runId="63346d2a924e0e1c906698b3" thread="application-akka.actor.default-dispatcher-5"
+2022-09-28T15:51:09.538Z: INFO  [d.s.r.a.HttpRunUpdater] Run is running. correlationId="s0gEbQH8Ed" projectId="626ff6a0a1d1d5496eec29c8" runId="63346d2a924e0e1c906698b3" thread="application-akka.actor.default-dispatcher-5"
+2022-09-28T15:51:09.538Z: INFO  [d.s.r.a.HttpRunUpdater] Changing run status runId: 63346d2a924e0e1c906698b3 newStatus: Running abnormalStatus: None correlationId="s0gEbQH8Ed" projectId="626ff6a0a1d1d5496eec29c8" runId="63346d2a924e0e1c906698b3" thread="application-akka.actor.default-dispatcher-5"
+2022-09-28T15:51:09.553Z: INFO  [d.e.r.RunExecutor] handleStateMessage: WorkloadLifecycleState(63346d2a924e0e1c906698b3,Running,None) correlationId="0u11OYtd4Q" projectId="626ff6a0a1d1d5496eec29c8" runId="63346d2a924e0e1c906698b3" thread="application-akka.actor.default-dispatcher-5"
+2022-09-28T15:51:09.556Z: INFO  [a.e.s.Slf4jLogger] Slf4jLogger started thread="Processors-akka.actor.default-dispatcher-5"
